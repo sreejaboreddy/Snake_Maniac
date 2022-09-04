@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(235, 86, 235),rgb(255, 112, 112));
+    overflow: hidden;
+}
+.image1 img{
+    position: absolute;
+    bottom: 2%;
+    right:3%;
+    height: 28vw;
+    overflow: hidden;
+}
+.image2 img{
+    position: relative;
+    width: 118vw;
+    left: -10vw;
+    top: -55vh;
+    overflow: hidden;
+}
+#board{
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(22,1fr);
+    height: 42vw;
+    width: 60vw;
+    bottom: 5%;
+    left:16%;
+    background: linear-gradient(rgb(192, 255, 192),rgb(253, 253, 129));
+    border: 2px solid black;
+}
+#scoreBox{
+    position: absolute;
+    top: 15px;
+    right:190px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#hiscoreBox{
+    position: absolute;
+    top: 65px;
+    right:150px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn-snake{
+    position: absolute;
+    right: 45%;
+    top: -25px;
+    margin:30px;
+    width: 12vw;
+    height: 7vh;
+    font-size: 4.5vh;
+    color: white;
+    background-color:green;
+    border-radius: 20px;
+}
+.btn-snake a{
+    text-decoration: none;
+    color: white;
+}
+.Paused{
+    position: absolute;
+    top: 7%;
+    right:45%;
+    font-size: 100px;
+    font-weight: bold;
+}
+.GameOvered{
+    position: absolute;
+    top: 7%;
+    right:38%;
+    font-size: 100px;
+    font-weight: bold;
+}
+.head{
+    background: linear-gradient(darkgreen,green);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.snake{
+    background: linear-gradient(yellowgreen,rgb(46, 179, 46));
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.food{
+    background: linear-gradient(red,purple);
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+/* Sign In page */
+#sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    right:36%;
+    font-size: 100px;
+    font-weight: bold;
+}
+#In{
+    width: 30vw;
+    height: 8vh;
+    font-size: 4vh;
+    padding: 0 35px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.btn{
+    margin:30px;
+    width: 12vw;
+    height: 7vh;
+    font-size: 3.5vh;
+    color: white;
+    background-color:green;
+    border-radius: 20px;
+}
+.btn-L{
+    width: 20vw;
+    height: 7vh;
+    font-size: 3.5vh;
+    color: white;
+    background-color:green;
+    border-radius: 20px;
+}
+#BTN_N{
+    position: absolute;
+    bottom: 0%;
+    right: -26%;
+    width: 127px;
+    background-color: red;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.table{
+    position: absolute;
+    top:48%;
+    right:26%;
+    width: 20vw;
+    font-size: 30px;
+}
+#thd{
+    visibility: hidden;
+}
+.row{
+    background-color: white;
+}
+.tab{
+    padding: 0px 90px;
+}
